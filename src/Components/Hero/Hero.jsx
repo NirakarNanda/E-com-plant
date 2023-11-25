@@ -8,11 +8,11 @@ const Hero = () => {
     <div className='hero'>
 
         <div className="hero-left">
-            <h2>NEW ARRIVALS ONLY</h2>
+            <h2>"Plantify: Where Nature Meets Your Space, One Leaf at a Time."</h2>
             <div>
-                <p>New</p>
-                <p>Collections</p>
-                <p>For Everyone</p>
+                <p>BUY</p>
+                <p>ALL TYPES OF</p>
+                <p>PLANT</p>
             </div>
             <div>
                 <div className="hero-latest-btn">
