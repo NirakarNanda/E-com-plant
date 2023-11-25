@@ -1,0 +1,107 @@
+/* Common styles */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 14px;
+    box-shadow: 0px 1px 3px -2px black;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-logo p {
+    color: #171717;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px; /* Adjusted gap for smaller screens */
+    color: #626262;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-menu li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+}
+
+.nav-menu hr {
+    border: none;
+    width: 40px; /* Adjusted width for smaller screens */
+    height: 3px;
+    border-radius: 10px;
+    background: lightgreen;
+}
+
+.nav-login-cart {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Adjusted gap for smaller screens */
+}
+
+.nav-login-cart button {
+    width: 120px; /* Adjusted width for smaller screens */
+    height: 44px;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 75px;
+    color: #515151;
+    font-size: 18px; /* Adjusted font size for smaller screens */
+    font-weight: 500;
+    background: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.nav-login-cart button:hover {
+    background: lightgreen;
+    color: white;
+}
+
+.nav-cart-count {
+    width: 18px; /* Adjusted width for smaller screens */
+    height: 18px; /* Adjusted height for smaller screens */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -28px; /* Adjusted margin-top for smaller screens */
+    margin-left: -35px; /* Adjusted margin-left for smaller screens */
+    border-radius: 9px; /* Adjusted border-radius for smaller screens */
+    font-size: 12px; /* Adjusted font size for smaller screens */
+    background: lightgreen;
+    color: white;
+}
+
+/* Media Query for Responsive Design */
+@media only screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-menu hr {
+        width: 100%;
+    }
+
+    .nav-login-cart {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

@@ -1,0 +1,62 @@
+.hero {
+    height: 100vh;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    display: flex;
+    align-items: center; /* Vertically center content */
+  }
+  
+  .hero-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px; /* Adjust spacing */
+  }
+  
+  .hero-left h2 {
+    color: #090909;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    gap: 10; /* Add spacing below the heading */
+  }
+  
+  .hero-left p {
+    color: #171717;
+    font-size: 36px; /* Increase font size */
+    font-weight: 700;
+    line-height: 1.2; /* Improve line height for better readability */
+    margin-bottom: 20px; /* Add spacing below the paragraph */
+  }
+  
+  .hero-latest-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px; /* Reduce width for better proportion */
+    height: 50px; /* Reduce height for better proportion */
+    border-radius: 25px; /* Make the button slightly rounded */
+    margin-top: 20px; /* Adjust spacing */
+    background: lightgreen;
+    color: white;
+    font-size: 18px; /* Reduce font size */
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .hero-right img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px; /* Add rounded corners to the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+
+  .hero-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
