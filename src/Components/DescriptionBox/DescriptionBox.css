@@ -1,0 +1,37 @@
+.descriptionbox {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .descriptionbox-navigator {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .descriptionbox-nav-box {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .descriptionbox-nav-box-fade {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #ddd;
+    border: 1px solid #ddd;
+    border-radius: 8px 8px 0 0;
+    opacity: 0.7;
+  }
+  
+  .descriptionbox-description {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  

@@ -1,13 +1,11 @@
-/* Footer.css */
-
 .footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
-    background: #fbfbfb; /* Added a background color */
-    padding: 20px; /* Moved padding to the entire footer */
+    gap: 20px;
+    background: #fbfbfb;
+    padding: 20px;
 }
 
 .footer-logo {
@@ -18,16 +16,19 @@
 
 .footer-logo p {
     color: #383838;
-    font-size: 2.5rem; /* Changed to rem for better responsiveness */
+    font-size: 2.5rem;
     font-weight: 700;
+    margin: 0;
 }
 
 .footer-links {
     display: flex;
+    flex-direction: column;
     list-style: none;
-    gap: 20px; /* Reduced gap for better spacing */
+    gap: 10px;
     color: #252525;
-    font-size: 1.6rem; /* Changed to rem for better responsiveness */
+    font-size: 1.6rem;
+    text-align: center;
 }
 
 .footer-links li {
@@ -37,6 +38,7 @@
 .footer-social-icon {
     display: flex;
     gap: 20px;
+    margin-top: 10px;
 }
 
 .footer-icons-container {
@@ -50,33 +52,31 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px; /* Reduced gap for better spacing */
+    gap: 10px; 
     width: 100%;
-    margin-bottom: 20px; /* Reduced margin for better spacing */
+    margin-bottom: 10px;
     color: #1a1a1a;
-    font-size: 1.6rem; /* Changed to rem for better responsiveness */
+    font-size: 1.6rem;
 }
 
 .footer-copyright hr {
     width: 80%;
     border: none;
-    border-radius: 5px; /* Reduced border radius */
-    height: 2px; /* Reduced height */
+    border-radius: 5px;
+    height: 2px;
     background: #c7c7c7;
 }
 
-/* Media Query for Responsive Design */
 @media only screen and (max-width: 768px) {
     .footer-links {
-        flex-direction: column; /* Stack links vertically on smaller screens */
-        text-align: center;
+        gap: 15px; 
     }
 
     .footer-links li {
-        margin-bottom: 10px; /* Added margin for better spacing */
+        margin-bottom: 15px; 
     }
 
     .footer-social-icon {
-        margin-top: 10px; /* Added margin for better spacing */
+        margin-top: 15px;
     }
 }

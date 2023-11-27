@@ -1,30 +1,30 @@
-import p1_img from './p1_peacelily.png'
-import p2_img from './p2_aleo.png'
-import p3_img from './p3_devilsivy.png'
-import p4_img from './p4_paperomia.png'
+import p1_img from './p1.jpg'
+import p2_img from './pi10-fuchsia.jpg'
+import p3_img from './pi26-Medow-carnesbill.jpg'
+import p4_img from './pi2-Wild-daffodil.jpg'
 
 let data_product = [
   {
-    id:1,
-    name:"Peace Lily",
+    id:12,
+    name:"Moon Orchid",
     image:p1_img,
     new_price:50.00,
     old_price:80.50,
   },
-  {id:2,
-    name:"Aleo Vera",
+  {id:13,
+    name:"Fuchsia",
     image:p2_img,
     new_price:85.00,
     old_price:120.50,
   },
-  {id:3,
-    name:"Devil's Ivy",
+  {id:33,
+    name:"Meadow Carnesbill",
     image:p3_img,
     new_price:60.00,
     old_price:100.50,
   },
-  {id:4,
-    name:"Paperomia",
+  {id:3,
+    name:"Wild Daffodil",
     image:p4_img,
     new_price:100.00,
     old_price:150.00,
